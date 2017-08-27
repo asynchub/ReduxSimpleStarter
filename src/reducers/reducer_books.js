@@ -1,4 +1,10 @@
-export default function() {
+// This is reducer function BookReducer
+// reducer is the function that returns the piece of application state
+
+// step 1: create the reducer here
+// step 2: wire up the reducer to application (made in reducers/index)
+
+export default function BookReducer() {
   return [
     {title: 'Wilkinson Trail'},
     {title: "It's not over until i win"},
@@ -7,4 +13,3 @@ export default function() {
     {title: 'Motivate your self'}
   ];
 };
-// step 1 create the reducer

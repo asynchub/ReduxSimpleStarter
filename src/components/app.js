@@ -1,3 +1,4 @@
+// App renders react components (react-redux containers), that are returned by render function
 import React, { Component } from 'react';
 import BookList from '../containers/book-list';
 import BookDetail from '../containers/book-detail';

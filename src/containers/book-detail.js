@@ -9,7 +9,7 @@ class BookDetail extends Component {
         <div>Select the book to show details</div>
       );
     }
-    
+
     return (
       <div>
         <h3>Details for:</h3>
@@ -23,7 +23,7 @@ class BookDetail extends Component {
 
 function mapStateToProps(state) {
   return {
-    // refer to the piece of state, that needed for this component (container)
+    // refer to the piece of state, needed for this component (container)
     book: state.activeBook
   };
 }
